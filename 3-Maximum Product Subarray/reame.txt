@@ -1,0 +1,10 @@
+This code defines a class Solution with a public method maxProduct that takes a vector of integers nums as input and returns the maximum product of any contiguous subarray.
+It initializes variables maxProductForward and maxProductBackward to store the maximum products encountered while traversing the array from left to right and right to left respectively.
+It also initializes variables productForward and productBackward to store the current product while traversing the array from left to right and right to left respectively.
+It traverses the array twice, once from left to right and once from right to left, updating the current product and maximum product encountered so far in each direction.
+It resets the current product to 1 whenever encountering a 0, as multiplying by 0 will always result in 0.
+Finally, it returns the maximum of maxProductForward and maxProductBackward as the maximum product of any contiguous subarray.
+
+
+
+
